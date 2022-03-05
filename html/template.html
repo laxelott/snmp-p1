@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Reporte</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<style>
+		body {
+			margin-top: 2cm;
+			margin-right: 2cm;
+			margin-left: 2cm;
+		}
+
+		.title {
+			text-align: center;
+		}
+
+		.graphs img {
+			width: 100%;
+		}
+		.info {
+			font-size: 1.5rem;
+		}
+		.info img {
+			height: 1.5rem;	
+		}
+	</style>
+</head>
+
+<body>
+	<div class="title">
+		<h1>Reporte del agente <i>%name%</i></h1>
+	</div>
+	<h2>Información del agente:</h2>
+	<div class="info">
+		<img src="icons/id-badge-regular.png"></i> Nombre: <b>%name%</b>
+		<br>
+		<img src="icons/database-solid.png"> Sistema Operativo: <img src="icons/%os-icon%.png"> <b>%os-name% v%os-ver%</b>
+		<br>
+		<img src="icons/map-marker-alt-solid.png"> Ubicación: <b>%location%</b>
+		<br>
+		<img src="icons/link-solid.png"> Número de Interfaces de Red: <b>%interface-number%</b>
+		<br>
+		<img src="icons/stopwatch-solid.png"> Tiempo de Actividad: <b>%uptime%</b>
+		<br>
+		<img src="icons/users-solid.png"> Comunidad: <b>%community%</b>
+		<br>
+		<img src="icons/id-card-regular.png"> IP: <b>%ip%</b>
+	</div>
+
+	<div class="graphs">
+		<h2>Gráficas de tráfico del agente:</h2>
+		<img src="img/%ip%-graph-1.png">
+		<img src="img/%ip%-graph-2.png">
+		<img src="img/%ip%-graph-3.png">
+	</div>
+</body>
+
+</html>
