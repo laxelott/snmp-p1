@@ -12,15 +12,22 @@
 
 ### **Requerimientos para monitorear rrd**
 1. Instalar paquetes rrd
-	sudo apt-get install librrd-dev libpython3-dev
+
+		sudo apt-get install librrd-dev libpython3-dev
+
 2. Instalar librería de python
-	pip3 install rrdtool
+
+		pip3 install rrdtool
 
 ### **Requerimientos para generar reporte PDF**
 1. Instalar wkhtmltopdf
-	sudo apt-get install wkhtmltopdf
+
+		sudo apt-get install wkhtmltopdf
+
 2. Instalar librería de python
-	pip3 install pdfkit
+
+		pip3 install pdfkit
+
 	
 ---
 
