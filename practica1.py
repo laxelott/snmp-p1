@@ -7,11 +7,6 @@ from device import snmpDevice
 from rrdDB import rrdDB
 import pdfkit
 
-# TODO
-# Imprimir menu inicial
-# Agregar dispositivo
-# Eliminar dispositivo
-# Generar reporte PDF
 print("Checando estatus de los agentes...")
 deviceDB = jsonDB("./devices.json")
 rrdFileDB = rrdDB()
