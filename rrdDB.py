@@ -72,8 +72,8 @@ class rrdDB:
                 "N",
                 "--vertical-label=Mensajes",
                 f"--title={monitorItems[key].graphTitle}",
-                f"DEF:{monitorItems[key].name}={rrdFile}:{monitorItems[key].name}:AVERAGE",
-                f"LINE3:{monitorItems[key].name}#0000FF:Mensajes",
+                f"DEF:valor={rrdFile}:{monitorItems[key].name}:AVERAGE",
+                f"LINE3:valor#0000FF:Mensajes",
             )
             i += 1
 
