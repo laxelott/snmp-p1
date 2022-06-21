@@ -272,7 +272,7 @@ def generar_reporte():
                 device.snmp_get_data()
 
                 print("Generando gráficas...")
-                rrdFileDB.create_graph(device)
+                rrdFileDB.create_graphs(device)
 
                 template = ""
                 htmlFile = f"./html/{device.local_host}.html"
